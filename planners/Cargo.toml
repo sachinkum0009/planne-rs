@@ -1,0 +1,11 @@
+[package]
+name = "planners"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rayon = "1.10"
+
+[[bin]]
+name = "joint_interpolation"
+path = "example/joint_interpolation.rs"
